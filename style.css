@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+.main{
+   min-height: 100vh;
+    width: 100%;
+    background-color: #033030;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vw;
+}
+
+.input_part{
+    height: 8vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+        padding-left: 13vw;
+}
+
+input{
+    height: 100%;
+    border: none;
+    border-radius: 1vw;
+    outline: none;
+    padding: 1vw;
+}
+
+.input_part button{
+    padding: .3vw 3vw;
+    border: none;
+    border-radius: 50px;
+    height: 100%;
+    font-size: 1.5vw;
+    background-color: #46acac;
+    transition: all ease .4s;
+    font-weight: 600;
+}
+
+.input_data button{
+    padding: 1vw 3vw;
+    border: none;
+    border-radius: 50px;
+    height: 100%;
+    font-size: 1.5vw;
+    background-color: #46acac;
+    transition: all ease .4s;
+    /* font-weight: 600; */
+}
+
+.input_part button:hover{
+    scale: 1.1;
+    background-color: #022525;
+    color: white;
+}
+
+.input_data button:hover{
+    scale: 1.1;
+    background-color: #022525;
+    color: white;
+}
+
+.input_data{
+    margin-left: 15vw;
+    width: 50%;
+    height: 50%;
+    background-color: #004646;
+    color: white;
+    line-height: 1vw;
+    padding: 1vw;
+}
+
+.input_data ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5vw;
+}
